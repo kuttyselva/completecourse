@@ -13,4 +13,5 @@ if(age>=18):
 else:
     print("and you are eligible for vote")
     print("come back in %d years" %(18-age))
+    print("thank you")
 
