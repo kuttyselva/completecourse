@@ -8,8 +8,9 @@ print("hello "+name+" you are "+str(age)+" years old")
 if(age>=18):
     {
         print("and you are eligible for vote")
-    }
-else:{
-    print("and you are not eligible for vote")
 
-}
+    }
+else:
+    print("and you are eligible for vote")
+    print("come back in %d years" %(18-age))
+
