@@ -75,3 +75,45 @@ ag=int(input("whats your age ? "))
 if 16<= ag <65:
     print("have a good day")
 
+
+#challenge 1
+
+ip=input("enter your ip address")
+ip+="."
+seg=1
+leng=0
+for i in ip:
+    if i ==".":
+        print("segment {} contains {} chars".format(seg,leng))
+        leng=0;
+        seg+=1;
+    else:
+        leng+=1
+
+
+  #while loop
+city = ["madurai", "chennai", "coimb", "trichy"]
+chk = ""
+while chk not in city:
+    chk=input("enter a city : ")
+    if chk == "quit":
+        print("exits")
+        break
+print("out of here")
+
+#challenge 2
+import random
+high=10
+ans=random.randint(1,high)
+print("guess a number between 1 to 10")
+guess=0
+while guess != ans :
+    guess=int(input())
+    if guess==0:
+        break
+    if guess<ans:
+        print("guess high")
+    elif guess>ans:
+        print("guess low")
+    else:
+        print("correct")
