@@ -117,3 +117,18 @@ while guess != ans :
         print("guess low")
     else:
         print("correct")
+
+# Challenge 3
+# print second minimum value from list
+
+list = [23,2,57,9]
+n= len(list)
+
+for i in (n-1):
+    for j in (0,n-i-1):
+        if(list[j]>list[j+1])
+            temp =list[j]
+            list[j] = list[j+1]
+            list[j+1] = temp
+         
+        print("Second minimum value after sorting the list",list[1])
